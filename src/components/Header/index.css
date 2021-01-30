@@ -1,0 +1,17 @@
+@media only screen and (min-width: 500px) {.header{
+font-weight: bold;
+font-size: 35px;
+    color: rgb(84, 38, 158);
+}}
+
+@media only screen and (max-width: 500px) {.header{
+    font-weight: bold;
+    font-size: 30px;
+        color: rgb(84, 38, 158);
+    }}
+
+    @media only screen and (max-width: 250px) {.header{
+        font-weight: bold;
+        font-size: 25px;
+            color: rgb(84, 38, 158);
+        }}

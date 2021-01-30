@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { GlobalProvoider } from './context/GobalContext';
+import Header from './components/Header';
+import { Total } from './components/Total';
+import Cards from './components/Cards';
+import { TransactionHistory } from './components/TransactionHistory';
+import { AddTransaction } from './components/AddTransaction';
+
 
 function App() {
   return (
+  <GlobalProvoider>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="Container">
+<Header/>
+<Total/>
+<Cards/>
+<TransactionHistory/>
+<AddTransaction/>
+ </div>
+ </div></GlobalProvoider>
   );
 }
 

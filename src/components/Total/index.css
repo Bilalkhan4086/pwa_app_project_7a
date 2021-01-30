@@ -1,0 +1,26 @@
+@media only screen and (min-width: 500px) {.total{
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(44, 7, 104);
+}
+.Tamount{
+    font-size: 35px;
+}}
+
+@media only screen and (max-width: 500px) {.total{
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(44, 7, 104);
+}
+.Tamount{
+    font-size: 20px;
+}}
+
+@media only screen and (max-width: 250px) {.total{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(44, 7, 104);
+}
+.Tamount{
+    font-size: 25px;
+}}
