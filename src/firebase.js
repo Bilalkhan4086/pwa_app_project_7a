@@ -10,9 +10,9 @@ import firebase from 'firebase';
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   var messaging = firebase.messaging();
-// </script>
 
 
+// function for generating token
 export const InitNotification = () =>{
   Notification.requestPermission().then((permission)=>{
     console.log(permission);
@@ -35,7 +35,4 @@ console.log("There is some error in permission granting");
   console.log('An error occurred while retrieving token. ', err);
   // ...
 })
-
-
-
 };

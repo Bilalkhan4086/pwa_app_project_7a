@@ -10,18 +10,19 @@ import { AddTransaction } from './components/AddTransaction';
 
 function App() {
   return (
-  <GlobalProvoider>
-    <div className="App">
-      <div className="Container">
+    <GlobalProvoider>
+      <div className="App">
+        <div className="Container">
 
-<Header/>
-<Total/>
-<Cards/>
-<TransactionHistory/>
-<AddTransaction/>
+          <Header />
+          <Total />
+          <Cards />
+          <TransactionHistory />
+          <AddTransaction />
 
- </div>
- </div></GlobalProvoider>
+        </div>
+      </div>
+    </GlobalProvoider>
   );
 }
 
