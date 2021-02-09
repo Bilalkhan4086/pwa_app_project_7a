@@ -1,28 +1,27 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16 144x144 512x512 192x192",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "chronometer.png",
-      "type": "image/png",
-      "sizes": "144x144"
-    },
-    {
-      "src": "chronometer.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    },
-    {
-      "src": "chronometer.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    }
-  ],
+  "icons": [{
+    "src": "favicon.ico",
+    "sizes": "64x64 32x32 24x24 16x16",
+    "type": "image/x-icon"
+  },
+  {
+    "src": "chronometer144.png",
+    "type": "image/png",
+    "sizes": "144x144"
+  },
+  {
+    "src": "chronometer192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  },
+  {
+    "src": "chronometer.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }
+],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#ffffff",
