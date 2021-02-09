@@ -1,6 +1,4 @@
 console.log('Register from SW>JS');
-
-
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   '/',
@@ -9,14 +7,12 @@ var urlsToCache = [
   '/static/js/main.chunk.js',
   '/static/media/logo.103b5fa1.svg',
   '/favicon.ico',
-  "/SW.js",
   'https://fonts.googleapis.com/css2?family=Acme&display=swap',
   '/static/media/bin.25ec54dc.svg',
   '/sockjs-node',
   'https://fonts.gstatic.com/s/acme/v11/RrQfboBx-C5_XxrBbg.woff2',
   '/manifest.json',
   '/logo192.png',
-  'https://pedantic-kowalevski-c233fb.netlify.app'
 
 ];
 
