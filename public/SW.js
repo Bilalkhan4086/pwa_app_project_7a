@@ -12,8 +12,7 @@ var urlsToCache = [
   '/sockjs-node',
   'https://fonts.gstatic.com/s/acme/v11/RrQfboBx-C5_XxrBbg.woff2',
   '/manifest.json',
-  '/logo192.png',
-
+  '/chronometer.png',
 ];
 
 self.addEventListener('install', function(event) {
