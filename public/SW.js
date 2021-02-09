@@ -13,6 +13,8 @@ var urlsToCache = [
   'https://fonts.gstatic.com/s/acme/v11/RrQfboBx-C5_XxrBbg.woff2',
   '/manifest.json',
   '/chronometer.png',
+  '/chronometer144.png',
+  '/chronometer192.png',
 ];
 
 self.addEventListener('install', function(event) {
