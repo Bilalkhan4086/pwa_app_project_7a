@@ -16,6 +16,8 @@ var urlsToCache = [
   'https://fonts.gstatic.com/s/acme/v11/RrQfboBx-C5_XxrBbg.woff2',
   '/manifest.json',
   '/logo192.png',
+  'https://pedantic-kowalevski-c233fb.netlify.app'
+
 ];
 
 self.addEventListener('install', function(event) {
