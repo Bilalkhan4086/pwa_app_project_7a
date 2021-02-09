@@ -9,6 +9,7 @@ var urlsToCache = [
   '/static/js/main.chunk.js',
   '/static/media/logo.103b5fa1.svg',
   '/favicon.ico',
+  "/SW.js",
   'https://fonts.googleapis.com/css2?family=Acme&display=swap',
   '/static/media/bin.25ec54dc.svg',
   '/sockjs-node',
